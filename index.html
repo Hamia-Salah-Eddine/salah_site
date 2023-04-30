@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==========UNICONS==========-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==========BOXICONS==========-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--==========SWIPER CSS==========-->
+    <link rel="stylesheet" href="wibe/css/swiper-bundle.min.css">
+    <!--==========MAIN CSS==========-->
+    <link rel="stylesheet" href="wibe/css/style.css">
+    <title>responsive portfolio website</title>
+</head>
+<body>
+    <button id="scroll-up" class="scroll-button up" onclick="scrollToTop()">▲</button>
+	<button id="scroll-down" class="scroll-button down" onclick="scrollToBottom()">▼</button>
+    <!--==========SIDEBAR==========-->
+    <div class="nav__toggle" id="nav-toggle">
+        <i class="uil uil-bars"></i>
+    </div>
+    <aside class="sidebar" id="sidebar">
+        <nav class="nav">
+            <div class="nav__logo">
+                <a href="index.html" class="nav__logo-text">M</a>
+            </div>
+            <div class="nav__menu">
+                <div class="menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a> <!--hada yebda m activer direct-->
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">Skills</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#work" class="nav__link">Work</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">Services</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="btn__share">
+                <i class="uil uil-share-alt social__share"></i>
+            </div>
+            <div class="nav__close" id="nav-close">
+                <i class="uil uil-times"></i>
+            </div>
+        </nav>
+    </aside>
+    <!--==========MAIN CSS==========-->
+    <main class="main">
+        <!--==========HOME==========-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__social">
+                    <span class="home__social-follow">Follow Me</span>
+                <div class="home__social-links">
+                    <a href="https://www.facebook.com/salah.ha.330/" target="_blank" class="home__social-link">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/salah_hamia/?hl=fr" target="_blank" class="home__social-link">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/Ha_Salah_Eddine" target="_blank" class="home__social-link">
+                        <i class="uil uil-twitter"></i>
+                    </a>
+                </div>
+                </div>
+                <img src="wibe/images/image2.jpg" alt="" class="home__img">
+                <div class="home__data">
+                    <h1 class="home__title">Hi, I am SALAH EDDINE</h1>
+                    <h3 class="home__subtitle">Operations Research Engineer</h3>
+                    <p class="home__description">high level experience in Desktop application and development knowledge, producing quality work</p>
+                    <a href="https://www.linkedin.com/in/salah-hamia-02840b230/" class="button"><i class="uil uil-user button__icon"></i>
+                    More About Me
+                    </a><!--hna ndir lien li y3aref bia-->
+                </div>
+                <div class="my__info">
+                    <div class="info__item">
+                        <i class="uil uil-facebook-messenger info__icon"></i>
+
+                        <div>
+                            <h3 class="info__title">Messenger</h3>
+                            <span class="info__subtitle">Salah Ha</span>
+                        </div>
+                    </div>
+                    <div class="info__item">
+                        <i class="uil uil-whatsapp info__icon"></i>
+
+                        <div>
+                            <h3 class="info__title">Whatsapp</h3>
+                            <span class="info__subtitle">+213697810844</span>
+                        </div>
+                    </div>
+                    <div class="info__item">
+                        <i class="uil uil-envelope-edit info__icon"></i>
+
+                        <div>
+                            <h3 class="info__title">Email</h3>
+                            <span class="info__subtitle">salah.hamia10@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==========ABOUT==========-->
+        <section class="about section" id="about">
+            <h2 data-heading="My Intro" class="section__title">About me</h2>
+
+            <div class="about__container container grid">
+                <img src="wibe/images/image2.jpg" alt="" class="about__img">
+                <div class="about__data">
+                    <h3 class="about__heading">Hi, I'm Salah Eddine Hamia, Based in Algeria</h3>
+                    <p class="about__description">Master's in Operational research and risk management and negotiation, with extensive knowledge and years of experience, 
+                        working also in web technologies and Desktop applications, delivering quality work.</p>
+                    <div class="about__info grid">
+                        <div class="about__box">
+                            <i class="uil uil-award about__icon"></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">4 + Years</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class="uil uil-suitcase-alt about__icon"></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">20 + Projects</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class="uil uil-headphones-alt about__icon"></i>
+                            <h3 class="about__title">Support</h3>
+                            <span class="about__subtitle">Online 24/7</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="button"><i class="uil uil-navigator button__icon"></i>
+                    Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--==========QUALIFICATION==========-->
+        <section class="qualification section">
+            <h2 data-heading="My Journey" class="section__title">Qualification</h2>
+            <div class="qualification__container container grid">
+                <div class="education">
+                    <h3 class="qualification__title">
+                        <i class="uil uil-graduation-cap"></i> Education
+                    </h3>
+                    <div class="timeline">
+                        <div class="timeline__item">
+                            <div class="circle__dot"></div>
+                            <h3 class="timeline__title">University of Science and Technology Houari Boumediene</h3>
+                            <p class="timeline__text">Bachelor's in Operational Research</p>
+                            <span class="timeline__date"><i class="uil uil-calendar-alt"></i>
+                                2018 - 2021
+                            </span>
+                        </div>
+                        <div class="timeline__item">
+                            <div class="circle__dot"></div>
+                            <h3 class="timeline__title">University of Science and Technology Houari Boumediene</h3>
+                            <p class="timeline__text">Master's in Operational Research Management, Risk and Negotiation</p>
+                            <span class="timeline__date"><i class="uil uil-calendar-alt"></i>
+                                2021 - 2023
+                            </span>
+                        </div>
+                        <div class="timeline__item">
+                            <div class="circle__dot"></div>
+                            <h3 class="timeline__title">Baccalauréat in civil engineering</h3>
+                            <span class="timeline__date"><i class="uil uil-calendar-alt"></i>
+                                2018
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience">
+                    <h3 class="qualification__title">
+                        <i class="uil uil-suitcase"></i> Experience
+                    </h3>
+                    <div class="timeline">
+                        <div class="timeline__item">
+                            <div class="circle__dot"></div>
+                            <h3 class="timeline__title">Sonatrach.</h3>
+                            <p class="timeline__text">A project at a living base in the desert</p>
+                            <span class="timeline__date"><i class="uil uil-calendar-alt"></i>
+                                feb2023 - aug2023
+                            </span>
+                        </div>
+                        <div class="timeline__item">
+                            <div class="circle__dot"></div>
+                            <h3 class="timeline__title">Projects.(different fields)</h3>
+                            <p class="timeline__text">Lots of small projects</p>
+                            <span class="timeline__date"><i class="uil uil-calendar-alt"></i>
+                                2020 - 2023
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--==========SKILLS==========-->
+        <section class="skills section" id="skills">
+            <h2 data-heading="My Abilities" class="section__title">My Experience</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__tabs">
+
+
+                    <div class="skills__header skills__active " data-target="#Languages" >
+                        <i class="uil uil-english-to-chinese skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">Languages</h1>   <!--hado kol wehda fiha un domain 
+                                ki nheb nzid kach domain ndir copie coller w nmodifie le title et le subtitle-->
+                            <span class="skills__subtitle"></span>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                    <div class="skills__header skills__active " data-target="#frontend" >
+                        <i class="uil uil-brackets-curly skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">Frontend Developer</h1>   <!--hado kol wehda fiha un domain 
+                                ki nheb nzid kach domain ndir copie coller w nmodifie le title et le subtitle-->
+                            <span class="skills__subtitle">More than 1 years</span>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                    <div class="skills__header " data-target="#design">
+                        <i class="uil uil-swatchbook skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">UI / UX Design</h1>
+                            <span class="skills__subtitle">More than 2 years</span>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                    <div class="skills__header" data-target="#Web">
+                        <i class="uil uil-web-grid skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">Web Application</h1>
+                            <span class="skills__subtitle">More than 1 years</span>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                    <div class="skills__header" data-target="#Operations_Research">
+                        <i class="uil uil-server-network skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">Operations Research</h1>
+                            <span class="skills__subtitle">More than 4 years</span>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                </div>
+
+
+                <!--le lien -->
+
+                <div class="skills__content">
+                    <div class="skills__group skills__active" data-content id="Languages"><!--hada le l groupe te3 domaine lowel -->
+                        <div class="skills__list grid">
+
+
+                            <div class="skills__data"> <!--hado rahum dakhel un domaine , kol wehda fihom 9edamha percntage ta3ha -->
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Arabic<h6 class="rmrq0">(Mother tongue)</h6></h3>
+                                    <span class="skills__number">95%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 95%;"></span><!--style="width=90%" : hadi hia l'action li t3amerha b 90%-->
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">French<h6 class="rmrq0">(Mother tongue) </h6></h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 85%;"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">English</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 70%;"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">German<h6 class="rmrq1">(B2) </h6></h3>
+                                    <span class="skills__number">65%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 65%;"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="skills__group " data-content id="frontend"><!--hada le l groupe te3 domaine lowel -->
+                        <div class="skills__list grid">
+
+
+                            <div class="skills__data"> <!--hado rahum dakhel un domaine , kol wehda fihom 9edamha percntage ta3ha -->
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 90%;"></span><!--style="width=90%" : hadi hia l'action li t3amerha b 90%-->
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 80%;"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 60%;"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>                  
+                    <div class="skills__group" data-content id="design"><!--hada le l groupe te3 domaine 2eme -->
+                        <div class="skills__list grid">
+
+
+                            <div class="skills__data"> <!--hado rahum dakhel un domaine , kol wehda fihom 9edamha percntage ta3ha -->
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Qt Designer / PyQt</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 90%;"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Tkinter</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 70%;"></span>
+                                </div>
+                            </div>
+                            
+                            
+
+
+                        </div>
+
+                    </div>
+                    <div class="skills__group" data-content id="Web"><!--hada le l groupe te3 domaine 3eme ect ...-->
+                        <div class="skills__list grid">
+                            <div class="skills__data"> <!--hado rahum dakhel un domaine , kol wehda fihom 9edamha percntage ta3ha -->
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Django</h3>
+                                    <span class="skills__number">75%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 75%;"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="skills__group" data-content id="Operations_Research"><!--hada le l groupe te3 domaine 3eme ect ...-->
+                        <div class="skills__list grid">
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 90%;"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">MySql</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 90%;"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Matlab</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 70%;"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Cplex</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 90%;"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Metaheuristic</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 80%;"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Forecasting</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 80%;"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Mathematical modeling</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 80%;"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Project management & scheduling (computing)</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 80%;"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Multiple-criteria decision analysis and Application</h3>
+                                    <span class="skills__number">75%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 75%;"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Dynamic programming</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 85%;"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Game theory</h3>
+                                    <span class="skills__number">65%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 65%;"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Field inventory management</h3>
+                                    <span class="skills__number">65%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 65%;"></span>
+                                </div>
+                            </div>
+                            
+                            
+
+                            
+
+
+                        </div>
+
+                    </div>
+                
+                
+                </div>
+            </div>
+        </section>
+        <!--==========WORK==========-->
+        <section class="work section" id="work">
+            <h2 data-heading="My portfolio" class="section__title">Recent works</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work " data-filter="all">All</span>
+                <span class="work__item " data-filter=".Web">Web</span>
+                <span class="work__item " data-filter=".OR-Apps">OR Apps</span><!--ncriilha adresse b data-filter-->
+                <span class="work__item " data-filter=".Apps">Apps</span>
+            </div>
+
+            <div class="work__container container grid">
+
+                <!--==============les projets dans "ALL"=====================================================================-->
+                <!--ki nheb nzid wehda ncopie coller w nbedel berk l'image w lktiba-->
+                <div class="work__card mix Apps" >
+                    <img src="wibe/images/bibliotheque.png" alt="" class="work__img">
+                    <h3 class="work__title">LibraPro</h3>  <!--le grand titre de la 1er-->
+                    <span class="work__button">demo 
+                        <i class="uil uil-arrow-right work__button-icon"></i>
+                    </span>
+                    <div class="portfolio__item-details">
+                        <h3 class="details__title">>LibraPro : Streamline your library's operations and enhance the patron experience with our powerful and user-friendly library management application.</h3>
+                        <p class="details__description">Welcome to our library management application! Our application is designed to help librarians and library staff manage all aspects of library operations, from cataloging and circulation to patron management and reporting. With our user-friendly interface and powerful tools, library professionals can streamline their workflows, save time, and provide a better experience for library patrons.<br>
+
+                            Our application offers a range of features, including a robust cataloging system that supports multiple formats and metadata standards, automated circulation management, and real-time reporting and analytics. In addition, our application is highly customizable, allowing libraries to tailor it to their specific needs and workflows.<br>
+                            
+                            Whether you're managing a small community library or a large academic institution, our library management application can help you simplify your work and improve your library's operations. Try it out today and experience the benefits of modern, streamlined library management!<br>
+                        </p>
+                        <ul class="details__info">
+                            <li>Created - <span>4 dec 2020</span></li>
+                            <li>Technologies - <span>Qt Designer / Python </span></li>
+                            <li>Role - <span>Application desktop</span></li>
+                            <li>View - <span><a href="#">www.domain.com </a></span></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="work__card mix Apps">
+                    <img src="wibe/images/playlist.png" alt="" class="work__img">
+                    <h3 class="work__title">MediaFetch</h3>
+                    <span class="work__button">demo 
+                        <i class="uil uil-arrow-right work__button-icon"></i>
+                    </span>
+                    <div class="portfolio__item-details">
+                        <h3 class="details__title">MediaFetch: The Ultimate Tool for Downloading Playlists, Videos, and Music</h3>
+                        <p class="details__description">Introducing our new desktop application, designed to make
+                            downloading playlists, videos, and music easier than ever before! With our user-friendly 
+                            interface, users can quickly and easily download their favorite content from popular 
+                            platforms such as YouTube, Vimeo, SoundCloud, and more. <br> Our application offers a variety of features that make downloading hassle-free.
+                            Users can download entire playlists with a single click, select the video or music 
+                            format they prefer, and even customize the download location. The application is also
+                             equipped with a powerful search feature that allows users to quickly find and download
+                              their desired content.
+                        </p>
+                        <ul class="details__info">
+                            <li>Created - <span>20 jan 2021</span></li>
+                            <li>Technologies - <span>Qt Designer / Python</span></li>
+                            <li>Role - <span>Application desktop</span></li>
+                            <li>View - <span><a href="#">www.domain.com </a></span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="work__card mix OR-Apps"><!--hna ndir "mix OR-Apss" bach tkun merbuta b ladresse li dertha lfo9-->
+                    <img src="wibe/images/modelisation1.jpg" alt="" class="work__img">
+                    <h3 class="work__title">DinkOpt</h3>
+                    <span class="work__button">demo 
+                        <i class="uil uil-arrow-right work__button-icon"></i>
+                    </span>
+                    <div class="portfolio__item-details">
+                        <h3 class="details__title">DinkOpt: Solving Nonlinear Fractional Programming with Python Implementation of Dinkelbach Algorithm</h3>
+                        <p class="details__description">Introducing our new Python code, designed to solve complex nonlinear fractional programming problems using the Dinkelbach algorithm. Our code is efficient, reliable, and easy to use, making it an essential tool for researchers, analysts, and students who work in the field of optimization.<br>
+                            The Dinkelbach algorithm is a well-known method for solving nonlinear fractional programming problems, which involves iteratively solving a sequence of linear programming problems. Our code implements this algorithm in a clear and concise manner, allowing users to quickly and easily solve complex optimization problems.<br>
+                            Our code offers a variety of features that make solving nonlinear fractional programming problems hassle-free. Users can input their optimization problem in a standard format, customize the convergence criteria, and even visualize the optimization process using various plotting tools.<br>
+                            Whether you want to optimize a complex system, minimize a cost function, or solve a challenging mathematical problem, our Python code is the perfect solution. With our fast computation speeds and reliable performance, you can be sure that you're getting accurate and efficient solutions to your optimization problems.<br>
+                        </p>
+                        <ul class="details__info">
+                            <li>Created - <span>26 sep 2021</span></li>
+                            <li>Technologies - <span>Python</span></li>
+                            <li>Role - <span>Code Python</span></li>
+                            <li>View - <span><a href="#">www.domain.com </a></span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="work__card mix OR-Apps">
+                    <img src="wibe/images/algorithme_de_resolution.jpg" alt="" class="work__img">
+                    <h3 class="work__title">AnnealOpt</h3>
+                    <span class="work__button">demo 
+                        <i class="uil uil-arrow-right work__button-icon"></i>
+                    </span>
+                    <div class="portfolio__item-details">
+                        <h3 class="details__title">AnnealOpt: Efficient and Customizable Simulated Annealing Optimization in Python</h3>
+                        <p class="details__description">Introducing our new Python code, designed to solve complex optimization problems using the Simulated Annealing Algorithm. Our code is efficient, reliable, and easy to use, making it an essential tool for researchers, analysts, and students who work in the field of optimization.<br>
+
+                            The Simulated Annealing Algorithm is a powerful optimization technique that is particularly well-suited for solving problems with a large number of variables and a complex landscape of local minima. Our code implements this algorithm in a clear and concise manner, allowing users to quickly and easily optimize their functions.<br>
+                            
+                            Our code offers a variety of features that make optimizing with the Simulated Annealing Algorithm hassle-free. Users can input their function to be optimized, specify the domain and range constraints, and customize the cooling schedule, initial temperature, and stopping criteria.<br>
+                            
+                            Whether you want to minimize a cost function, optimize a complex system, or solve a challenging mathematical problem, our Python code is the perfect solution. With our fast computation speeds and reliable performance, you can be sure that you're getting accurate and efficient solutions to your optimization problems.<br>
+                        </p>
+                        <ul class="details__info">
+                            <li>Created - <span>4 apr 2022</span></li>
+                            <li>Technologies - <span>Python</span></li>
+                            <li>Role - <span>code Python</span></li>
+                            <li>View - <span><a href="#">www.domain.com </a></span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="work__card mix Apps">
+                    <img src="wibe/images/student.png" alt="" class="work__img">
+                    <h3 class="work__title">StudentMaster</h3>
+                    <span class="work__button">demo 
+                        <i class="uil uil-arrow-right work__button-icon"></i>
+                    </span>
+                    <div class="portfolio__item-details">
+                        <h3 class="details__title">StudentMaster : Simple application.</h3>
+                        <p class="details__description">
+                            Although our student management application was developed with the best intentions, we recognize that it has some limitations. As a learning project, the application may not be as robust or feature-rich as other commercially available student management software.<br>
+
+                            We acknowledge that there may be shortcomings in terms of functionality, usability, and user experience. As a result, the application may not meet the needs of all educational institutions and administrators.<br>
+                        </p>
+                        <ul class="details__info">
+                            <li>Created - <span>19 jan 2019</span></li>
+                            <li>Technologies - <span>Tkinter / Python</span></li>
+                            <li>Role - <span></span>Application Desktop</li>
+                            <li>View - <span><a href="#">www.domain.com </a></span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="work__card mix Apps">
+                    <img src="wibe/images/supermarkt.png" alt="" class="work__img">
+                    <h3 class="work__title">EasySales</h3>
+                    <span class="work__button">demo 
+                        <i class="uil uil-arrow-right work__button-icon"></i>
+                    </span>
+                    <div class="portfolio__item-details">
+                        <h3 class="details__title">Supermarket Sales Management Application</h3>
+                        <p class="details__description">The Supermarket Sales Management application is a desktop software designed to assist in the management of sales transactions at a supermarket. The application allows users to add new products to the inventory, update product information, and track sales data. It also includes features to manage employee information and generate sales reports. Although I developed this application and I am a beginner, it still provides a useful tool for managing sales data and improving business efficiency. The user interface is simple and intuitive, making it easy to navigate and use. Overall, the Supermarket Sales Management application offers a basic set of features for managing sales data at a supermarket, making it a useful tool for small businesses.
+                        </p>
+                        <ul class="details__info">
+                            <li>Created - <span>20 mar 2019</span></li>
+                            <li>Technologies - <span>Tkinter / Python</span></li>
+                            <li>Role - <span>Application Desktop</span></li>
+                            <li>View - <span><a href="#">www.domain.com </a></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--<div class="work__card mix Web">
+                    <img src="wibe/images/prevision.jpg" alt="" class="work__img">
+                    <h3 class="work__title">Web Design</h3>
+                    <span class="work__button">demo 
+                        <i class="uil uil-arrow-right work__button-icon"></i>
+                    </span>
+                    <div class="portfolio__item-details">
+                        <h3 class="details__title">App for tecnology & services</h3>
+                        <p class="details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Dignissimos, voluptate sit autem culpa atque molestias rem optio reprehenderit, impedit, 
+                         nulla odit minima quidem ullam provident similique ea accusantium maiores quod.
+                        </p>
+                        <ul class="details__info">
+                            <li>Created - <span>4 dec 2020</span></li>
+                            <li>Technologies - <span>html css</span></li>
+                            <li>Role - <span>Frontend</span></li>
+                            <li>View - <span><a href="#">www.domain.com </a></span></li>
+                        </ul>
+                    </div>-->
+                </div>
+            </div>
+
+        </section>
+
+        <!--Portfolio Popup-->
+        <div class="portfolio__popup">
+            <div class="portfolio__popup-inner">
+                <div class="portfolio__popup-content grid">
+                    <span class="portfolio__popup-close"><i class="uil uil-times"></i></span>
+                    <div class="pp__thumbnail">
+                        <img src="wibe/images/bib.jpg" alt="" class="portfolio__popup-img">
+                    </div>
+                    <div class="portfolio__popup-info">
+                        <div class="portfolio__popup-subtitle">Featured - <span>Web Design</span></div>
+                        <div class="portfolio__popup-body">
+                            <h3 class="details__title">App for tecnology & services</h3>
+                            <p class="details__description">It is a  library management platform that
+                                supports your strategic priorities with actionable data and an experience
+                                 designed with the user in mind. You save time and money with efficient 
+                                 management of physical and electronic resources in one integrated solution.
+                           </p>
+                            
+                            <ul class="details__info">
+                                <li>Created - <span>4 dec 2020</span></li>
+                                <li>Technologies - <span>Qt Designer / Python</span></li>
+                                <li>Role - <span>Management</span></li>
+                                <li>View - <span><a href="#">www.domain.com </a></span></li>
+                            </ul>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--==========SERVICES==========-->
+        <section class="services section" id="services">
+            <h2 data-heading="Services" class="section__title">What I Offer</h2>
+
+            <div class="services__container container grid">
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-web-grid services__icon"></i>
+                        <h3 class="services__title">Application <br> Desktop</h3>
+                    </div>
+                    <span class="services__button">
+                        View More <i class="uil uil-arrow-right services__button-icon"></i>
+                    </span>
+                    <!--hna rah nhet wech yji fiha -->
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="uil uil-times services__modal-close"></i>
+                            <h3 class="services__modal-title">Application Desktop</h3>
+                            <p class="services__modal-description">services with more than 3 years of experience.
+                                providing quality work to clients and companies.</p>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">I develop the user interface.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">I develop optimization programs and the field of OR</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">I creat UX element interactions.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">The database is powerful and flexible.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Artificial intelligence applications in the field of operations research.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Miscellaneous applications.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-arrow services__icon"></i>
+                        <h3 class="services__title">UI/UX <br> Designer</h3>
+                    </div>
+                    <span class="services__button">
+                        View More <i class="uil uil-arrow-right services__button-icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="uil uil-times services__modal-close"></i>
+                            <h3 class="services__modal-title">UI/UX Designer</h3>
+                            <p class="services__modal-description">services with more than 2 years of experience.
+                                providing quality work to clients and companies.</p>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">I develop the user interface.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Web page Developement.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">I creat UX element interactions.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">I create effective databases.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-edit services__icon"></i>
+                        <h3 class="services__title">Operations<br>Research</h3>
+                    </div>
+                    <span class="services__button">
+                        View More <i class="uil uil-arrow-right services__button-icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="uil uil-times services__modal-close"></i>
+                            <h3 class="services__modal-title">Branding Designer</h3>
+                            <p class="services__modal-description">services with more than 3 years of experience.
+                                providing quality work to clients and companies.</p>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Mathematical modeling .</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Mathematical optimization.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Decision theory.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Project management & scheduling (computing).</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p class="services__modal-info">Other services.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==========TESTIMONIALS==========-->
+        <section class="testimonials section">
+            <h2 data-heading="My clients say" class="section__title">testimonials</h2>
+
+            <div class="testimonials__container container grid swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <div class="testimonial__quote">
+                            <i class="bx bxs-quote-alt-left"></i>
+                        </div>
+                        <p class="testimonial__description">Desktop management application.</p>
+                        <h3 class="testimonial__date">March 27.2020</h3>
+                        <div class="testimonial__profile">
+                            <img src="wibe/images/usthb.jpg" alt="" class="testimonial__profile-img">
+
+                            <div class="testimonial__profile-data">
+                                <span class="testimonial__profile-name">USTHB</span>
+                                <span class="testimonial__profile-detail">L'université des sciences et de la technologie Houari-Boumédiène (USTHB),
+                                     est une université située dans la commune de Bab Ezzouar
+                                      à une quinzaine de kilomètres à l'est d'Alger en Algérie.
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial__card swiper-slide">
+                        <div class="testimonial__quote">
+                            <i class="bx bxs-quote-alt-left"></i>
+                        </div>
+                        <p class="testimonial__description">placement of Wi-Fi access points in a SONATRACH living base.</p>
+                        <h3 class="testimonial__date">feb 10.2023</h3>
+                        <div class="testimonial__profile">
+                            <img src="wibe/images/sonatrach.png" alt="" class="testimonial__profile-img">
+
+                            <div class="testimonial__profile-data">
+                                <span class="testimonial__profile-name">USTHB</span>
+                                <span class="testimonial__profile-detail">Sonatrach est une entreprise publique algérienne qui opère dans le domaine des hydrocarbures. Elle est spécialisée dans l'exploration, la production, le transport, la transformation et la commercialisation de pétrole et de gaz naturel. Sonatrach est considérée comme la plus grande entreprise d'Afrique.
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial__card swiper-slide">
+                        <div class="testimonial__quote">
+                            <i class="bx bxs-quote-alt-left"></i>
+                        </div>
+                        <p class="testimonial__description">The library management application is powerful and easy to use.</p>
+                        <h3 class="testimonial__date">March 27.2020</h3>
+                        <div class="testimonial__profile">
+                            <img src="wibe/images/client3.jpg" alt="" class="testimonial__profile-img">
+
+                            <div class="testimonial__profile-data">
+                                <span class="testimonial__profile-name">USTHB</span>
+                                <span class="testimonial__profile-detail">free agent.
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="testimonial__card swiper-slide">
+                        <div class="testimonial__quote">
+                            <i class="bx bxs-quote-alt-left"></i>
+                        </div>
+                        <p class="testimonial__description">Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Tenetur impedit enim aliquam.</p>
+                        <h3 class="testimonial__date">March 27.2020</h3>
+                        <div class="testimonial__profile">
+                            <img src="wibe/images/client4.jpg" alt="" class="testimonial__profile-img">
+
+                            <div class="testimonial__profile-data">
+                                <span class="testimonial__profile-name">USTHB</span>
+                                <span class="testimonial__profile-detail">L'université des sciences et de la technologie Houari-Boumédiène (USTHB),
+                                     est une université située dans la commune de Bab Ezzouar
+                                      à une quinzaine de kilomètres à l'est d'Alger en Algérie.
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>-->
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--==========CONTACT==========-->
+        <section class="contact section" id="contact">
+            <h2 data-heading="Get in touch" class="section__title">Contact Me</h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class="uil uil-envelope-edit contact__card-icon"></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">salah.hamia10@gmail.com</span>
+                            <span class="contact__button">
+                                Writ Me<i class="uil uil-arrow-right contact__button-icon"></i>
+                            </span>
+                        </div>
+                        <div class="contact__card">
+                            <i class="uil uil-whatsapp contact__card-icon"></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">+213697810844</span>
+                            <span class="contact__button">
+                                Writ Me<i class="uil uil-arrow-right contact__button-icon"></i>
+                            </span>
+                        </div>
+                        <div class="contact__card">
+                            <i class="uil uil-facebook-messenger contact__card-icon"></i>
+                            <h3 class="contact__card-title">Messenger</h3>
+                            <span class="contact__card-data">Salah Ha</span>
+                            <span class="contact__button">
+                                Writ Me<i class="uil uil-arrow-right contact__button-icon"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="contact__content">
+                    <form action="https://formsubmit.co/salah.hamia10@gmail.com" method="POST" class="contact__form">
+                        <div class="input__container">
+                            <input type="text" class="input">
+                            <label for="">Username</label>
+                            <span>Username</span>
+                        </div>
+                        <div class="input__container">
+                            <input type="email" class="input">
+                            <label for="">Email</label>
+                            <span>Email</span>
+                        </div>
+                        <div class="input__container">
+                            <input type="tel" class="input">
+                            <label for="">Phone</label>
+                            <span>Phone</span>
+                        </div>
+                        <div class="input__container textarea">
+                            <textarea name="" id="" class="input"></textarea>
+                            <label for="">Message</label>
+                            <span>Message</span>
+                        </div>
+                        <button type="submit" disabled="false" class="button"><i class="uil uil-navigator button__icon"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!--==========FOOTER==========-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                    <h1 class="footer__title">Salah Eddine</h1>
+                    <span class="footer__subtitle">Operations Research</span>
+                </div>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#services" class="footer__link">Services</a>
+                        </li>
+                        <li>
+                            <a href="#work" class="footer__link">Work</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.facebook.com/salah.ha.330/" target="_blank" class="footer__social">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/salah_hamia/?hl=fr" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/Ha_Salah_Eddine" target="_blank" class="footer__social">
+                            <i class="uil uil-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="footer__copy">&#169; Crypticalcoder, All right reserved</p>
+            </div>
+        </footer>
+    </main>
+    
+
+    <!--==========SCROLL UP==========-->
+
+
+    <!--==========MIXITUP FILTER==========-->
+    <script src="wibe/js/mixitup.min.js"></script><!--hna 3ayet l fichie li telechargito (reht dert extrai l wesh telecharjit apres dkhelt w reht l "dis" copiyit had le fichie w dito l fichie js)-->
+    <!-- reht l site ta3hom apres reht l Getstarted reht l filter controle copiyit wesh lazem w collitha f work__filter taw3i blwehda
+    apres hbet l les "card taw3i zdelthom "mix "le nom te3 limen rahum tab3in" "-->
+
+    <!--==========SWIPER JS==========-->
+    <script src="wibe/js/swiper-bundle.min.js"></script>
+
+    <!--==========MAIN JS==========-->
+    <script src="wibe/js/main.js"></script>  <!--hna 3ayet l "main.js" ta3i-->
+    
+</body>
+<html>
+
+</html>
